@@ -30,6 +30,7 @@ function getEndpoints(deviceAddress, endpoints)
    endpoints.addEndpoint("10", "Temperature sensor", endpointType.temperatureSensor);
   // endpoints.addEndpoint("2", "CO2 sensor", endpointType.ppmConcentrationSensor, ppmConcentrationSensorSubType.carbonDioxide);
 
+   crg.tags = 'Carga', 'Porcentaje';
 }
 
 function validateDeviceAddress(address, result)
