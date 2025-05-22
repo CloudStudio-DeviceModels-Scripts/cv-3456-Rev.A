@@ -23,11 +23,11 @@ function getEndpoints(deviceAddress, endpoints)
   // En el código siguiente, se crean dos endpoints. El primero es un sensor de 
   // temperatura, mientras que el segundo es un sensor de dióxido de carbono.
 
-   var crg = endpoints.addEndpoint("1", "Cargas", endpointType.genericSensor);
+   var crg = endpoints.addEndpoint("c1rg4s", "Cargas", endpointType.genericSensor);
    crg.variableTypeId=1186;
-   var crg = endpoints.addEndpoint("2", "Medidas", endpointType.genericSensor);
+   var crg = endpoints.addEndpoint("m3d1d12", "Medidas", endpointType.genericSensor);
    crg.variableTypeId=1197;
-   endpoints.addEndpoint("10", "Temperature sensor", endpointType.temperatureSensor);
+   endpoints.addEndpoint("T3mp31", "Tmperatura", endpointType.temperatureSensor);
   // endpoints.addEndpoint("2", "CO2 sensor", endpointType.ppmConcentrationSensor, ppmConcentrationSensorSubType.carbonDioxide);
 
    crg.tags = 'Carga', 'Porcentaje';
